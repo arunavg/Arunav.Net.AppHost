@@ -40,4 +40,4 @@ See LICENSE file for details.
 Latest Update 
 -------
 
-**Initialize Public Release**
+**Initial Public Release**
