@@ -1,0 +1,218 @@
+﻿html, body, form
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: verdana, sans-serif;
+    font-size: 12px;
+}
+
+label 
+{
+    padding-top: 4px;
+    padding-left: 4px;
+    display: inline-block;
+    width: 100px;
+    margin: 4px;
+}
+
+input, select, textarea
+{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#divHead
+{
+    padding-left: 4px;
+    padding-top: 4px;
+    height: 42px;
+    background: -moz-linear-gradient(top, #ffffff 4%, #dadada 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(4%,#ffffff), color-stop(100%,#dadada));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadada',GradientType=0 );
+}
+
+#divDomainDialog
+{
+    width: 98%;
+    max-width: 480px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    border: 2px solid #333;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+}
+
+#divSystemDialog
+{
+    width: 98%;
+    max-width: 480px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    border: 2px solid #333;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+}
+
+#divUserDialog
+{
+    width: 98%;
+    max-width: 480px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    border: 2px solid #333;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+}
+
+#divSubTitle
+{
+    width: 98%;
+    max-width: 350px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#progressContainer
+{
+    height: 8px; 
+    border: 1px solid #333; 
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#progressDiv
+{
+    width: 0; 
+    height: 8px; 
+    background-color: #698aab;
+    background: -moz-linear-gradient(top, #698aab 4%, #8aa4bd 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(4%,#698aab), color-stop(100%,#8aa4bd));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#698aab', endColorstr='#8aa4bd',GradientType=0 );
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#messageDiv
+{
+    width: 98%;
+    max-width: 350px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+}
+
+.header
+{
+    background-color: #3D556C;
+    text-shadow: #3d556c 2px 1px 0;
+    height: 24px;
+    font-size: 12px;
+}
+
+#rowTitle
+{
+    padding-left:8px;
+    line-height: 24px;
+    color: White;
+}
+
+#lblMessage {
+    line-height: 28px;
+}
+
+.txtbox
+{
+    padding-left: 4px;
+    width: 96%;
+    margin-left: 1%;    
+    margin-right: 3%;
+    max-width: 320px;
+    font-family: verdana, sans-serif;
+    font-size: 16px;
+    border: 1px solid #3d556c;
+}
+
+.sel
+{
+    padding-left: 4px;
+    width: 96%;
+    margin-left: 1%;    
+    margin-right: 3%;
+    max-width: 324px;
+    font-family: verdana, sans-serif;
+    font-size: 16px;
+    border: 1px solid #3d556c;
+}
+
+#imgCaptcha 
+{
+    margin-top: 4px;
+    margin-bottom: -4px;
+    width: 96%;
+    margin-left: 1%;    
+    margin-right: 3%;
+    max-width: 320px;
+    border: 1px solid #3d556c;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#lblAccept
+{
+    display:inline;
+    margin: 0;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.tdSubmit 
+{
+    text-align: right;
+    margin: 14px;
+}
+
+#btnSubmit, #btnInstall 
+{
+    background-color: #3D556C;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+#btnCancel 
+{
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #3D556C;
+}

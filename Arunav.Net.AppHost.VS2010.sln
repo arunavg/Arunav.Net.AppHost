@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arunav.Net.AppBase", "Arunav.Net.AppBase\Arunav.Net.AppBase.csproj", "{180B2C18-7C24-4028-A2C7-98F845D8490E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arunav.Net.AppHost", "Arunav.Net.AppHost\Arunav.Net.AppHost.csproj", "{661806B0-9F66-45D1-BC75-7697739C9F42}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5EB3A18D-BD9A-44D2-904A-62FF4777E784} = {5EB3A18D-BD9A-44D2-904A-62FF4777E784}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arunav.Net.TestApp", "Arunav.Net.TestApp\Arunav.Net.TestApp.csproj", "{5EB3A18D-BD9A-44D2-904A-62FF4777E784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{180B2C18-7C24-4028-A2C7-98F845D8490E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180B2C18-7C24-4028-A2C7-98F845D8490E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180B2C18-7C24-4028-A2C7-98F845D8490E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180B2C18-7C24-4028-A2C7-98F845D8490E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661806B0-9F66-45D1-BC75-7697739C9F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661806B0-9F66-45D1-BC75-7697739C9F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661806B0-9F66-45D1-BC75-7697739C9F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661806B0-9F66-45D1-BC75-7697739C9F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB3A18D-BD9A-44D2-904A-62FF4777E784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB3A18D-BD9A-44D2-904A-62FF4777E784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB3A18D-BD9A-44D2-904A-62FF4777E784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB3A18D-BD9A-44D2-904A-62FF4777E784}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
