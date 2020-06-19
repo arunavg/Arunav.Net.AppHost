@@ -21,7 +21,7 @@ namespace Arunav.Net.TestApp
         private static void ShowPage(AppContext context)
         {
             bool isPostBack = "POST".Equals(context.Request.HttpMethod, StringComparison.Ordinal);
-            string message = isPostBack ? string.Concat("Hello ", context.Request.Form["txtFullName"], "!") : "Hello World!";
+            string message = !isPostBack ? "Hello World!" : string.Concat("Hello ", HttpUtility.HtmlEncode(context.Request.Form["txtFullName"]), "!");
 
             context.Response.Write(HtmlTags.HeadStartFormat, "Test Handler");
             context.Response.Write(HtmlTags.HeadMetaTags);
